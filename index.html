@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre à trouver</title>
+</head>
+<body>
+    <h1>Deviner un nombre !</h1>
+    <p>Choississez un nombre entre 0 à 100. Vous avez 10 essais maximum.</p>
+
+
+    <label for="guessField"> Entrer un nombre :</label>
+    <input type="text" name="guessField" id="guessField" size="3">
+    <input type="submit" id="btnDOM" value="Valider">
+
+    <div id="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+    <script src="principal.js"></script>
+</body>
+</html>
