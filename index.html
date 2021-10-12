@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nombre à trouver</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Deviner un nombre !</h1>
     <p>Choississez un nombre entre 0 à 100. Vous avez 10 essais maximum.</p>
-
-
-    <label for="guessField"> Entrer un nombre :</label>
-    <input type="text" id="guessField" class="guessField" size="3">
-    <input type="submit" id="btnDOM" class="guessSubmit" value="Valider">
-
+    <div class="main">
+        <label for="guessField"> Entrer un nombre :</label>
+        <input type="text" id="guessField" class="guessField" size="3">
+        <input type="submit" id="btnDOM" class="guessSubmit" value="Valider">
+    </div>
     <div id="resultParas">
         <p class="guesses"></p>
         <p class="lastResult"></p>
